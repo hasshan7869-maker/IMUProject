@@ -1,0 +1,23 @@
+Required Python Libraries
+pyserial
+bleak
+pandas
+numpy
+matplotlib
+scipy
+scikit-learn
+
+System
+1. Upload sketch to ESP32 on Arduino IDE
+2. After compiling connect IMU_Wearable to nRF Connect App on phone
+3. Under client --> Unknown Service --> Unknown Characteristic --> hit 3 arrows (start recording data) and again to stop
+4. Swipe left to see logged data in hex value packets at 50 Hz
+5. Save file as . txt in school OneDrive
+6. open on laptop and download into project folder
+7. open terminal in project folder and enter python commands
+
+IMU Python Commands
+.txt --> .csv converter: python parse_nrf_log.py <your_log_file.txt>
+data plotter: python plot_imu_data.py
+event detector: python detect_events.py
+Neural Network/Movement Classifier Training: python train_classifier.py
