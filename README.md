@@ -44,13 +44,13 @@ Receiving on a phone (via nRF Connect) instead of a laptop pushed effective thro
 
 Captured fully untethered sessions covering jogging, jumping, accelerating, and kicking. Event detection produced clear, distinguishable signatures for different movement types (jog vs. jump/kick vs. sprint-like bursts).
 
-![image alt]([images/motion_capture_results.png](https://github.com/hasshan7869-maker/IMUProject/blob/47444056b9109e50e63ce09ba514b8ce2ef540ee/Screenshot%202026-09-13%20104011.png))
+![image alt](images/motion_capture_results.png](https://github.com/hasshan7869-maker/IMUProject/blob/47444056b9109e50e63ce09ba514b8ce2ef540ee/Screenshot%202026-09-13%20104011.png)
 
 ## Enclosure
 
 Designed a custom enclosure in SolidWorks, sized and constrained around the ESP32 + BMI270 board footprint. CAD is complete; not yet 3D printed.
 
-![image alt]([images/enclosure_render.png](https://github.com/hasshan7869-maker/IMUProject/blob/47444056b9109e50e63ce09ba514b8ce2ef540ee/Screenshot%202026-09-13%20091618.png))
+![image alt](images/enclosure_render.png](https://github.com/hasshan7869-maker/IMUProject/blob/47444056b9109e50e63ce09ba514b8ce2ef540ee/Screenshot%202026-09-13%20091618.png)
 
 ## Tech Stack
 
